@@ -1,0 +1,23 @@
+.Hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ImageDiv {
+    border-radius: 100%;
+    width: 9em;
+    height: 9em;
+    object-fit: cover;
+    background-color: white;
+    padding: 10px;
+}
+
+.Profile-Picture {
+    border-radius: 100%;
+    width: 9em;
+    height: 9em;
+    object-fit: cover;
+}

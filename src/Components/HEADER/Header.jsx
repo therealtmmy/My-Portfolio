@@ -3,11 +3,11 @@ import "../HEADER/Header.css"
 
 const Header = () => {
   return (
-    <div>
+    <div className='Header'>
         <div>
-            <a href="">Oluwatimilehin</a>
+            <a href="">OLUWATIMILEHIN</a>
         </div>
-        <div>
+        <div className='Nav-Bar'>
             <a href="">WORKS</a>
             <a href="">SKILLS</a>
             <a href="">RESUME</a>
