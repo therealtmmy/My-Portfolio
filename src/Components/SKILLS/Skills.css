@@ -1,0 +1,32 @@
+.Skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.Skill-Heading {
+    color: white;
+    display: flex;
+    align-items: start;
+   justify-content: start;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 30px;
+    gap: 2.5em;
+    width: 20em;
+    border-radius: 5px;
+    height: 6em;
+    background-color: rgb(53, 53, 52);
+    color: white;
+}
+
+.icon {
+    width: 2em;
+    height: 2em;
+    object-fit: contain;
+}

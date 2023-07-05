@@ -1,12 +1,15 @@
 import React from 'react'
+import '../SKILLS/Skills.css'
 
-const Skills = () => {
+const Skills = (props) => {
   return (
-    <div>
-        <p>Skills</p>
-        <hr />
-        <div>JAVASCRIPT</div>
-        {/* Map through using JSON */}
+    <div className='Skills'>
+        {/* <p className='Skill-Heading'>Skills</p>
+        <hr /> */}
+        <div className='skill'>
+          <img className='icon' src={props.icon} alt="icon" />
+         <p>{props.skill}</p> 
+         </div>
     </div>
   )
 }

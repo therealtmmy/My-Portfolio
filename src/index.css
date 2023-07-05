@@ -6,3 +6,12 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 8em;
+}
