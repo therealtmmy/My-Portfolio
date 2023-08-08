@@ -1,18 +1,25 @@
 import React from 'react'
+import '../PROJECTS/Projects.css'
 
-const Projects = () => {
+const Projects = ({values}) => {
+   
+
   return (
-    <div>
-        <p>My Projects</p>
-        <hr />
+    <div className='Projects'>
+        <div className='project'>
         <div>
-            <img src="" alt="" />
-            <div>
-                <button>Source Code</button>
-                <button>Demo</button>
+          <img className='projectImg' src={values.icon} alt="icon" />
+         </div>
+            <div className='sourceBtn'>
+            <a href={values.sourceCode} target="_blank"><button>Source Code</button></a>
+
+                <a href={values.link}  target="_blank">
+                    <button>Demo</button>
+                    </a>
             </div>
         </div>
     </div>
+     
   )
 }
 

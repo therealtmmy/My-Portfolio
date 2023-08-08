@@ -1,0 +1,29 @@
+.Projects {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+}
+
+.project {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   margin-top: 3em;
+}
+
+.projectImg {
+    border-radius: 10px;
+    width: 20em;
+    height: 20em;
+    object-fit: cover;
+}
+
+.sourceBtn {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
