@@ -1,9 +1,7 @@
 body {
   margin: 0;
   padding: 0%;
-  background: url(/src/Images/5206281.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+ background-color: black;
   background-attachment: fixed;
 }
 

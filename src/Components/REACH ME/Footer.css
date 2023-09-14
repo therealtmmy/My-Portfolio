@@ -1,9 +1,40 @@
 .reach {
-    margin-left: 5em;
+    margin-left: 4em;
     margin-top: 10em;
     color: white;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
+}
+
+label > p {
+    color: white;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    gap: -100em;
+    align-items: start;
+    justify-content: start;
+ margin-left: 4.5em;
+}
+
+input {
+    height: 35px;
+    width: 20em;
+    outline: none;
+    padding-left: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.socials {
+    display: flex;
+    gap: 2.5em;
+    margin-left: 5.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .copyright {
@@ -11,4 +42,10 @@
     color: white;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
+}
+
+.reachBtn {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
 }

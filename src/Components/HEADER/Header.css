@@ -6,11 +6,21 @@
     align-items: center;
     height: 4em;
     gap: 40em;
-    background-color: #131416;
+    background-color: none;
     position: sticky;
     top: 0%;
+    animation: fadeIn 2s ease-in-out;
 }
 
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 .Nav-Bar {
     display: flex;
