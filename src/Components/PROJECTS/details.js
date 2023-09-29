@@ -12,6 +12,25 @@ const details = [
   {
     id: 0,
     icon: image,
+    title: "Fitness Club",
+    text:
+      "lorem every la prime this is the real of the things that we are tryng to cook and this looks great in my sight and we are still working on it",
+    sourceCode: "https://github.com/therealtmmy/Fitness-Club",
+    link: "https://fitness-club-rose.vercel.app/",
+  },
+
+  {
+    id: 1,
+    icon: newsFlash,
+    text:
+      "lorem every la prime this is the real of the things that we are tryng to cook and this looks great in my sight and we are still working on it",
+    sourceCode: "https://github.com/therealtmmy/OnCredit",
+    link: "https://ost-blog.vercel.app/index.html",
+  },
+
+  {
+    id: 2,
+    icon: sushiFood,
     text:
       "lorem every la prime this is the real of the things that we are tryng to cook and this looks great in my sight and we are still working on it",
     sourceCode: "https://github.com/therealtmmy/OnCredit",
@@ -19,58 +38,56 @@ const details = [
   },
 
   {
-    id: 1,
-    icon: newsFlash,
-    sourceCode: "https://github.com/therealtmmy/OnCredit",
-    link: "https://fetch-api-4g6l-git-main-eoluwatimilehin.vercel.app/",
-  },
-
-  {
-    id: 2,
-    icon: sushiFood,
-    sourceCode: "https://github.com/therealtmmy/OnCredit",
-    link: "https://fetch-api-4g6l-git-main-eoluwatimilehin.vercel.app/",
-  },
-
-  {
     id: 3,
     icon: loopStudio,
+    text:
+      "lorem every la prime this is the real of the things that we are tryng to cook and this looks great in my sight and we are still working on it",
     sourceCode: "https://github.com/therealtmmy/OnCredit",
-    link: "https://fetch-api-4g6l-git-main-eoluwatimilehin.vercel.app/",
+    link: "https://loop-studio-landing-wine.vercel.app/",
   },
 
   {
     id: 4,
     icon: padiAgent,
+    text:
+      "lorem every la prime this is the real of the things that we are tryng to cook and this looks great in my sight and we are still working on it",
     sourceCode: "https://github.com/therealtmmy/OnCredit",
     link: "https://fetch-api-4g6l-git-main-eoluwatimilehin.vercel.app/",
   },
   {
     id: 5,
     icon: onCredit,
+    text:
+      "lorem every la prime this is the real of the things that we are tryng to cook and this looks great in my sight and we are still working on it",
     sourceCode: "https://github.com/therealtmmy/OnCredit",
-    link: "https://fetch-api-4g6l-git-main-eoluwatimilehin.vercel.app/",
+    link: "https://on-credit-zeta.vercel.app/",
   },
 
   {
     id: 6,
     icon: allPrint,
+    text:
+      "lorem every la prime this is the real of the things that we are tryng to cook and this looks great in my sight and we are still working on it",
     sourceCode: "https://github.com/therealtmmy/OnCredit",
-    link: "https://fetch-api-4g6l-git-main-eoluwatimilehin.vercel.app/",
+    link: "https://allseasonsprintingcompany.vercel.app/",
   },
 
   {
     id: 7,
     icon: valaPrime,
+    text:
+      "lorem every la prime this is the real of the things that we are tryng to cook and this looks great in my sight and we are still working on it",
     sourceCode: "https://github.com/therealtmmy/OnCredit",
-    link: "https://fetch-api-4g6l-git-main-eoluwatimilehin.vercel.app/",
+    link: "https://valaprime.netlify.app/",
   },
 
   {
     id: 8,
     icon: bibleQuote,
+    text:
+      "lorem every la prime this is the real of the things that we are tryng to cook and this looks great in my sight and we are still working on it",
     sourceCode: "https://github.com/therealtmmy/OnCredit",
-    link: "https://fetch-api-4g6l-git-main-eoluwatimilehin.vercel.app/",
+    link: "https://bible-verse-generator.vercel.app/",
   },
 ];
 

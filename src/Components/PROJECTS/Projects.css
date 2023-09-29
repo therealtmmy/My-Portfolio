@@ -4,11 +4,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* gap: 2em;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; */
-    margin-top: 5em;
+    gap: 3em;
+    margin-top: 1em;
 }
 
 .project {
@@ -23,6 +20,15 @@
     width: 25em;
     height: 15em;
     object-fit: cover;
+}
+
+h3 {
+    color: white;
+}
+
+.projectText {
+    color: white;
+    width: 25em;
 }
 
 .sourceBtn {
