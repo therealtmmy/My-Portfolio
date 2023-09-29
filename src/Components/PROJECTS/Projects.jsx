@@ -9,6 +9,7 @@ const Projects = ({values}) => {
         <div className='project'>
         <div>
           <img className='projectImg' src={values.icon} alt="icon" />
+          {/* <p>{values.text}</p> */}
          </div>
             <div className='sourceBtn'>
             <a href={values.sourceCode} target="_blank"><button>Source Code</button></a>

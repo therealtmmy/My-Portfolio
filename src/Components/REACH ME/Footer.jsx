@@ -24,7 +24,7 @@ const Footer = () => {
 
             <label htmlFor="Message Me">
               <p>Message Me:</p>
-            <input type="text" name='Message Me' placeholder='How can I help you' />
+              <textarea name='Message Me'  id="" cols="40" rows="10" placeholder='How can I help you'></textarea>
              </label>
              <br />
         <button className='reachBtn'>Submit</button>

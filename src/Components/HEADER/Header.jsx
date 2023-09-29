@@ -28,7 +28,8 @@ const Header = () => {
   }
 
   return (
-    <>    <div className={`${'Header'}`} style= {scrolled ?  backk  : back}>
+    <>   
+     <div className={`${'Header'}`} style= {scrolled ?  backk  : back}>
         <div>
             <a href="">OLUWATIMILEHIN</a>
         </div>
