@@ -1,12 +1,5 @@
 const data = [
   {
-    id: 0,
-    icon:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-    skill: "VISUAL STUDIO CODE",
-  },
-
-  {
     id: 1,
     icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     skill: "REACT",
@@ -64,13 +57,6 @@ const data = [
     id: 9,
     icon: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
     skill: "FIGMA",
-  },
-
-  {
-    id: 10,
-    icon:
-      "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg",
-    skill: "PHOTOSHOP",
   },
 ];
 

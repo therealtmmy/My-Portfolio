@@ -31,12 +31,16 @@ const Header = () => {
     <>   
      <div className={`${'Header'}`} style= {scrolled ?  backk  : back}>
         <div>
-            <a href="">OLUWATIMILEHIN</a>
+            <a href="#">OLUWATIMILEHIN</a>
         </div>
         <div className='Nav-Bar'>
-            <a href="">WORKS</a>
             <a href="">SKILLS</a>
-            <a href="https://drive.google.com/file/d/1ZPmR-nMf7i7kpUuK-fpVtrFCMEmeHCsJ/view" target='_blank'>RESUME</a>
+            <a href="">PROJECTS</a>
+            <a 
+            href="https://drive.google.com/file/d/1ZPmR-nMf7i7kpUuK-fpVtrFCMEmeHCsJ/view" 
+            target='_blank'
+            rel="noopener">
+            RESUME</a>
             <button>SAY HELLO</button>
         </div>
     </div>

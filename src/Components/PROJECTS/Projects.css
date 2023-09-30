@@ -1,34 +1,59 @@
+
 .Projects {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 3em;
-    margin-top: 1em;
+    gap: 5em;
+    margin-top: 0em;
 }
+
+.projectHeading {
+    margin-left: 2.3em;
+    margin-top: 5em;
+    margin-bottom: 8px;
+    color: white;
+    font-size: 2em;
+    font-family: 'Clash Display', sans-serif;
+}
+
+.projectLine {
+    width: 90%;
+    border: 1px solid white;
+    height: 0.1px;
+    margin-left: 4.5em;
+    margin-right: 5em;
+    margin-bottom: 70px;
+}
+
 
 .project {
    display: flex;
    flex-direction: column;
    gap: 1em;
-   margin-top: 3em;
+
 }
 
 .projectImg {
     border-radius: 10px;
-    width: 25em;
-    height: 15em;
+    width: 20em;
+    height: 10em;
     object-fit: cover;
 }
 
 h3 {
     color: white;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 2em;
 }
 
 .projectText {
     color: white;
-    width: 25em;
+    width: 20em;
+    margin-top: -20px;
+    font-size: 1em;
+    font-family: 'Clash Display', sans-serif;
 }
 
 .sourceBtn {

@@ -56,44 +56,32 @@
 .Intro {
     color: #d6d4d4;
     margin-bottom: -1px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    font-family: 'Clash Display', sans-serif;
 }
 
 h2 {
     text-align: center;
     color: white;
     margin-top: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.5em;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 3.5em;
 }
 
 .Others {
     text-align: center;
     color: white;
-    margin-top: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.5em;
+    margin-top: 10px;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 3.5em;
     margin-top: -1.2em;
 }
 
 .Intro-Text {
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Clash Display', sans-serif;
     text-align: center;
+    font-size: 1.3em;
     width: 50em;
 }
 
-.Hero-Btn {
-    border: none;
-    width: 8em;
-    height: 50px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-
-.Hero-Btn:hover {
-    border: 1px solid white;
-  color: rgb(214, 212, 212);
-    background: none;
-}

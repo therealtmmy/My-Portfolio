@@ -1,14 +1,23 @@
-
 .reach {
-    margin-left: 4em;
-    margin-top: 10em;
+    margin-left: 2.3em;
+    margin-top: 5em;
+    margin-bottom: 8px;
     color: white;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-family: 'Clash Display', sans-serif;
+}
+
+.line {
+    width: 90%;
+    border: 1px solid white;
+    height: 0.1px;
+    margin-left: 4.5em;
+    margin-right: 5em;
 }
 
 label > p {
     color: white;
+    font-family: 'Clash Display', sans-serif;
 }
 
 .Form {
@@ -18,6 +27,7 @@ label > p {
     align-items: start;
     justify-content: start;
  margin-left: 4.5em;
+ margin-top: 2em;
 }
 
 input {
@@ -28,6 +38,7 @@ input {
     color: black;
     font-size: 15px;
     font-weight: bold;
+    font-family: 'Clash Display', sans-serif;
 }
 
 .socials {
@@ -42,7 +53,7 @@ input {
     text-align: center;
     color: white;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Clash Display', sans-serif;
 }
 
 .reachBtn {
@@ -54,8 +65,10 @@ input {
 textarea {
     width: 20em;
     outline: none;
+    padding-top: 10px;
     padding-left: 10px;
     color: black;
     font-size: 15px;
     font-weight: bold;
+    font-family: 'Clash Display', sans-serif;
 }
