@@ -16,7 +16,7 @@ const Footer = () => {
 
   return (
     <>
-      <h3 className='reach'>Reach Me</h3>
+      <h3 id='reach'>Reach Me</h3>
       <div className='line'></div>
 
       {/* Form */}

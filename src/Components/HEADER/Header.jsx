@@ -34,14 +34,16 @@ const Header = () => {
             <a href="#">OLUWATIMILEHIN</a>
         </div>
         <div className='Nav-Bar'>
-            <a href="">SKILLS</a>
-            <a href="">PROJECTS</a>
+            <a href="#skillsHeading">SKILLS</a>
+            <a href="#projectHeading">PROJECTS</a>
             <a 
             href="https://drive.google.com/file/d/1ZPmR-nMf7i7kpUuK-fpVtrFCMEmeHCsJ/view" 
             target='_blank'
             rel="noopener">
             RESUME</a>
-            <button>SAY HELLO</button>
+           <a href="#reach">
+           <button>SAY HELLO</button>
+            </a> 
         </div>
     </div>
     </>

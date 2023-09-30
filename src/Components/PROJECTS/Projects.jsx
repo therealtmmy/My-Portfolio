@@ -32,7 +32,7 @@ const Projects = ({values}) => (
 const ProjectsCard = () => {
   return (
     <>
-      <h3 className='projectHeading'>Projects</h3>
+      <h3 id='projectHeading'>Projects</h3>
         <div className='projectLine'></div>
         <div className='Projects'>
         {details.map((values) => (

@@ -17,7 +17,7 @@ const Skills = ({item}) => (
 const SkillsCard = () => {
   return (
     <>
-     <h3 className='skillsHeading'>Skills</h3>
+     <h3 id='skillsHeading'>Skills</h3>
       <div className='skillsLine'></div>
     <div className='skillMapped'>
       {data.map((item) => (<Skills key={item.id} item={item} {...item} />
