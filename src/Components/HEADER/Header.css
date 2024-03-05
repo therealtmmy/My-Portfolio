@@ -4,7 +4,7 @@
     align-items: center;
     height: 4em;
     gap: 40em;
-    background-color: none;
+    background-color: black;
     position: sticky;
     top: 0%;
     animation: fadeIn 2s ease-in-out;
