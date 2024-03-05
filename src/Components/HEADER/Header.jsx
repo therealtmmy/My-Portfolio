@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import "../HEADER/Header.css"
+import React, { useEffect, useState } from "react";
+import "../HEADER/Header.css";
 
 const Header = () => {
-  const [scrolled, setScrolled] = useState(false)
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,35 +20,36 @@ const Header = () => {
   }, []);
 
   const back = {
-    background: "none"
-  }
+    background: "none",
+  };
 
   const backk = {
-    background: "black"
-  }
+    background: "black",
+  };
 
   return (
-    <>   
-     <div className={`${'Header'}`} style= {scrolled ?  backk  : back}>
+    <>
+      <div className={`${"Header"}`}>
         <div>
-            <a href="#">OLUWATIMILEHIN</a>
+          <a href="#">OLUWATIMILEHIN</a>
         </div>
-        <div className='Nav-Bar'>
-            <a href="#skillsHeading">SKILLS</a>
-            <a href="#projectHeading">PROJECTS</a>
-            <a 
-            href="https://drive.google.com/file/d/1ZPmR-nMf7i7kpUuK-fpVtrFCMEmeHCsJ/view" 
-            target='_blank'
-            rel="noopener">
-            RESUME</a>
-           <a href="#reach">
-           <button>SAY HELLO</button>
-            </a> 
+        <div className="Nav-Bar">
+          <a href="#skillsHeading">SKILLS</a>
+          <a href="#projectHeading">PROJECTS</a>
+          <a
+            href="https://drive.google.com/file/d/1ZPmR-nMf7i7kpUuK-fpVtrFCMEmeHCsJ/view"
+            target="_blank"
+            rel="noopener"
+          >
+            RESUME
+          </a>
+          <a href="#reach">
+            <button>SAY HELLO</button>
+          </a>
         </div>
-    </div>
+      </div>
     </>
+  );
+};
 
-  )
-}
-
-export default Header
+export default Header;

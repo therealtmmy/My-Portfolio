@@ -47,10 +47,9 @@
 
 .Profile-Picture {
     border-radius: 100%;
-    width: 9em;
-    height: 9em;
+    width: 9.5em;
+    height: 10em;
     object-fit: cover;
-    margin-top: 0.5em;
 }
 
 .Intro {
@@ -85,3 +84,33 @@ h2 {
     width: 50em;
 }
 
+@media screen and (max-width: 600px) { 
+    
+.Hero {
+  
+    position: absolute;
+    top: 15%;
+}
+
+    h2 {
+        font-size: 2.3em;
+    }
+
+    .Others {
+        text-align: center;
+        color: white;
+        margin-top: 6px;
+        font-family: 'Clash Display', sans-serif;
+        font-size: 2.4em;
+        margin-top: -0.8em;
+    }
+
+    .Intro-Text {
+        color: white;
+        font-family: 'Clash Display', sans-serif;
+        text-align: center;
+        font-size: 1.5em;
+        width: 12em;
+        
+    }
+}

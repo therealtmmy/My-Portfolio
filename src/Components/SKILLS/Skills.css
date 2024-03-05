@@ -44,3 +44,17 @@
     margin-right: 5em;
     margin-bottom: 50px;
 }
+
+
+
+@media screen and (max-width: 600px) { 
+    #skillsHeading {
+        margin-left: 1em;
+        margin-top: 33em;
+    }
+
+    .skillsLine {
+        margin-left: 1.5em;
+    }
+    
+}

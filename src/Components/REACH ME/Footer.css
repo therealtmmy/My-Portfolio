@@ -72,3 +72,84 @@ textarea {
     font-weight: bold;
     font-family: 'Clash Display', sans-serif;
 }
+
+@media screen and (max-width: 600px) { 
+    #reach {
+        margin-left: 0.9em;
+        margin-top: 3em;
+        margin-bottom: 8px;
+        color: white;
+        font-size: 2em;
+        font-family: 'Clash Display', sans-serif;
+    }
+    
+    .line {
+        width: 90%;
+        border: 1px solid white;
+        height: 0.1px;
+        margin-left: 1.5em;
+        margin-right: 5em;
+    }
+    
+    label > p {
+        color: white;
+        font-family: 'Clash Display', sans-serif;
+    }
+    
+    .Form {
+        display: flex;
+        flex-direction: column;
+        gap: -100em;
+        align-items: start;
+        justify-content: start;
+     margin-left: 1.5em;
+     margin-top: 2em;
+    }
+    
+    input {
+        height: 35px;
+        width: 20em;
+        outline: none;
+        padding-left: 10px;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Clash Display', sans-serif;
+    }
+    
+    .socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5em;
+        margin-left: 0em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    
+    .copyright {
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        font-family: 'Clash Display', sans-serif;
+    }
+    
+    .reachBtn {
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    textarea {
+        width: 20em;
+        outline: none;
+        padding-top: 10px;
+        padding-left: 10px;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Clash Display', sans-serif;
+    }
+  
+  }
+    

@@ -19,7 +19,6 @@ const Footer = () => {
       <h3 id='reach'>Reach Me</h3>
       <div className='line'></div>
 
-      {/* Form */}
       <form className='Form'
        action="https://getform.io/f/1572c1c8-e1d7-4e82-b97d-5ced3527baf1"
        method="post"
@@ -47,7 +46,7 @@ const Footer = () => {
             onChange={(e) => setEmail(e.target.value)}
             onBlur={() => setShowEmail(true)}
             />
-            {showEmail && email.length < 1 ?(<p style={{color: "red"}}>Email cannot be empty</p>) : null}
+            {showEmail && email.length < 1 ? (<p style={{color: "red"}}>Email cannot be empty</p>) : null}
             </label>
 
             <label>
@@ -70,15 +69,8 @@ const Footer = () => {
       <button className='reachBtn'>Submit</button>
       </form>
 
-      <div>
-      <Socials/>
-      </div>
-
-     
-      <p className='copyright'>
-       Oluwatimilehin Esan 
-      <span> {year}</span>
-      </p>
+      <div><Socials/></div>
+      <p className='copyright'> Oluwatimilehin Esan <span>{year}</span></p>
     </>
   )
 }
